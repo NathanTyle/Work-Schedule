@@ -12,4 +12,14 @@ $(document).ready(function() {
 
         localStorage.setItem(time, text)
     })
+// color changing function based on time of day
+    $(document).ready(function() {
+    
+        $('.saveBtn').on('click', function () {
+    
+            var text = $(this).siblings('.description').val()
+            var time = $(this).parent().attr('id')
+    
+            localStorage.setItem(time, text)
+        })
 })
