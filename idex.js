@@ -1,6 +1,8 @@
+// today's date at the top
 var todayDate = moment().format('dddd, MMM Do YYYY')
 $('#currentDay').html(todayDate)
 
+//save button to local storage 
 $(document).ready(function() {
     
     $('.saveBtn').on('click', function () {
