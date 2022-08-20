@@ -19,7 +19,7 @@ body {
     background-color: transparent;
     color: rgb(46, 30, 30);
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid rgb(46, 30, 30);
   }
   
   .description{
